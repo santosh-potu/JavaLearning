@@ -8,6 +8,9 @@ class StringTest {
 		System.out.println(s);
 		s = s + " No need to say again!";
 		System.out.println(s);
+		for(int i=0;i<s.length();i++) {
+			System.out.println("Charecter at position "+i+" is ->"+s.charAt(i));
+		}
 	}
 
 }
